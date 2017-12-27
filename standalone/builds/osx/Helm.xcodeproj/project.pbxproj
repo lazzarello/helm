@@ -60,6 +60,7 @@
 		2D1E58B7A478524AA87449BC = {isa = PBXBuildFile; fileRef = 5AA6534E4E8973315DD40B14; };
 		5460C17E9367CB47174AC324 = {isa = PBXBuildFile; fileRef = 2B2DAF77E529EF609CE07E03; };
 		085F8A4374DEA12C6FB08B69 = {isa = PBXBuildFile; fileRef = F516DB15733061FA2656F285; };
+		0E37BC350B7ACCE5810563D6 = {isa = PBXBuildFile; fileRef = F30F4DDFFE24C90CCF0A2502; };
 		3C71EB2DE73067A65FCD27F7 = {isa = PBXBuildFile; fileRef = D0258E93F451A1A44636A6A4; };
 		56100466C368D965FC38E73E = {isa = PBXBuildFile; fileRef = AECBC83AC89D73A996841BEE; };
 		1362658F311F79DD5D372E7C = {isa = PBXBuildFile; fileRef = 6FCE542B01C79855D2121C1B; };
@@ -481,6 +482,7 @@
 		EFCA16D0537112D91D9D66BF = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "formant_section.h"; path = "../../../src/editor_sections/formant_section.h"; sourceTree = "SOURCE_ROOT"; };
 		F07959200D87E6A2E36A5A98 = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "open_gl_modulation_manager.cpp"; path = "../../../src/editor_sections/open_gl_modulation_manager.cpp"; sourceTree = "SOURCE_ROOT"; };
 		F2485643B89333A7542334B7 = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "open_gl_oscilloscope.h"; path = "../../../src/editor_components/open_gl_oscilloscope.h"; sourceTree = "SOURCE_ROOT"; };
+		F30F4DDFFE24C90CCF0A2502 = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "osc_manager.cpp"; path = "../../../src/common/osc_manager.cpp"; sourceTree = "SOURCE_ROOT"; };
 		F3D08A651F760BCE4B2EEA5C = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "mixer_section.cpp"; path = "../../../src/editor_sections/mixer_section.cpp"; sourceTree = "SOURCE_ROOT"; };
 		F4D11926F0706EBD858E5108 = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "open_gl_peak_meter.cpp"; path = "../../../src/editor_components/open_gl_peak_meter.cpp"; sourceTree = "SOURCE_ROOT"; };
 		F516DB15733061FA2656F285 = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "midi_manager.cpp"; path = "../../../src/common/midi_manager.cpp"; sourceTree = "SOURCE_ROOT"; };
@@ -612,6 +614,7 @@
 					AB079907889060B891C4E778,
 					F516DB15733061FA2656F285,
 					CA98FDA2AD5552AFD96D3ACD,
+					F30F4DDFFE24C90CCF0A2502,
 					FCAABF31550C585502ED1319,
 					D0258E93F451A1A44636A6A4,
 					96EB57DF51524AB7C4F989F3,
@@ -1057,6 +1060,7 @@
 					2D1E58B7A478524AA87449BC,
 					5460C17E9367CB47174AC324,
 					085F8A4374DEA12C6FB08B69,
+					0E37BC350B7ACCE5810563D6,
 					3C71EB2DE73067A65FCD27F7,
 					56100466C368D965FC38E73E,
 					1362658F311F79DD5D372E7C,

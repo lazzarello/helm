@@ -517,6 +517,9 @@
     <ClCompile Include="..\..\..\src\common\midi_manager.cpp">
       <Filter>Helm\src\common</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\src\common\osc_manager.cpp">
+      <Filter>Helm\src\common</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\..\src\common\startup.cpp">
       <Filter>Helm\src\common</Filter>
     </ClCompile>

@@ -106,6 +106,7 @@ OBJECTS_APP := \
   $(JUCE_OBJDIR)/helm_common_ef933337.o \
   $(JUCE_OBJDIR)/load_save_2c95b2e1.o \
   $(JUCE_OBJDIR)/midi_manager_80d96a0e.o \
+  $(JUCE_OBJDIR)/osc_manager_6b40bb18.o \
   $(JUCE_OBJDIR)/startup_52cb2a28.o \
   $(JUCE_OBJDIR)/synth_base_c3ad3b73.o \
   $(JUCE_OBJDIR)/synth_gui_interface_6337839d.o \
@@ -417,6 +418,11 @@ $(JUCE_OBJDIR)/load_save_2c95b2e1.o: ../../../src/common/load_save.cpp
 $(JUCE_OBJDIR)/midi_manager_80d96a0e.o: ../../../src/common/midi_manager.cpp
 	-$(V_AT)mkdir -p $(JUCE_OBJDIR)
 	@echo "Compiling midi_manager.cpp"
+	$(V_AT)$(CXX) $(JUCE_CXXFLAGS) $(JUCE_CPPFLAGS_APP) $(JUCE_CFLAGS_APP) -o "$@" -c "$<"
+
+$(JUCE_OBJDIR)/osc_manager_6b40bb18.o: ../../../src/common/osc_manager.cpp
+	-$(V_AT)mkdir -p $(JUCE_OBJDIR)
+	@echo "Compiling osc_manager.cpp"
 	$(V_AT)$(CXX) $(JUCE_CXXFLAGS) $(JUCE_CPPFLAGS_APP) $(JUCE_CFLAGS_APP) -o "$@" -c "$<"
 
 $(JUCE_OBJDIR)/startup_52cb2a28.o: ../../../src/common/startup.cpp

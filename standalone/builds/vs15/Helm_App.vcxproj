@@ -307,6 +307,7 @@
     <ClCompile Include="..\..\..\src\common\helm_common.cpp"/>
     <ClCompile Include="..\..\..\src\common\load_save.cpp"/>
     <ClCompile Include="..\..\..\src\common\midi_manager.cpp"/>
+    <ClCompile Include="..\..\..\src\common\osc_manager.cpp"/>
     <ClCompile Include="..\..\..\src\common\startup.cpp"/>
     <ClCompile Include="..\..\..\src\common\synth_base.cpp"/>
     <ClCompile Include="..\..\..\src\common\synth_gui_interface.cpp"/>

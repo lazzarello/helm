@@ -29,7 +29,13 @@
 
 class SynthGuiInterface;
 
-class SynthBase : public MidiManager::Listener {
+class SynthBase : public MidiManager::Listener
+/*
+Get a compiler error here about OSCManaer not having a "default constructor". Not sure what that means yet.
+class SynthBase : public MidiManager::Listener,
+public OSCManager
+ */
+{
   public:
     SynthBase();
     virtual ~SynthBase() { }
@@ -120,6 +126,7 @@ class SynthBase : public MidiManager::Listener {
     mopo::HelmEngine engine_;
     ScopedPointer<MidiManager> midi_manager_;
     ScopedPointer<MidiKeyboardState> keyboard_state_;
+    ScopedPointer<OSCManager> osc_manager_;
 
     File active_file_;
     float output_memory_[2 * mopo::MEMORY_RESOLUTION];

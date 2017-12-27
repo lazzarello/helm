@@ -28,6 +28,8 @@ SynthBase::SynthBase() {
 
   keyboard_state_ = new MidiKeyboardState();
   midi_manager_ = new MidiManager(this, keyboard_state_, &save_info_, this);
+  //Regression from "default constructor" issue in synth_base.h
+  //osc_manager_ = new OSCManager(this, &save_info_, this);
 
   last_played_note_ = 0.0;
   last_num_pressed_ = 0;
