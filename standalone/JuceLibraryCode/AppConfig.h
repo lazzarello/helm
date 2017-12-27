@@ -34,8 +34,14 @@
 
 // BEGIN SECTION A
 
-#define JUCE_DISPLAY_SPLASH_SCREEN 0
-#define JUCE_REPORT_APP_USAGE 0
+#ifndef JUCE_DISPLAY_SPLASH_SCREEN
+ #define JUCE_DISPLAY_SPLASH_SCREEN 1
+#endif
+
+#ifndef JUCE_REPORT_APP_USAGE
+ #define JUCE_REPORT_APP_USAGE 1
+#endif
+
 
 // END SECTION A
 
@@ -55,6 +61,7 @@
 #define JUCE_MODULE_AVAILABLE_juce_gui_basics            1
 #define JUCE_MODULE_AVAILABLE_juce_gui_extra             1
 #define JUCE_MODULE_AVAILABLE_juce_opengl                1
+#define JUCE_MODULE_AVAILABLE_juce_osc                   1
 
 #define JUCE_GLOBAL_MODULE_SETTINGS_INCLUDED 1
 

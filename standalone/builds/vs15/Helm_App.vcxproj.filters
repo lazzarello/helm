@@ -383,6 +383,12 @@
     <Filter Include="Juce Modules\juce_opengl">
       <UniqueIdentifier>{639E16C5-DA8B-ADBA-6E24-7B596378EAB2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Juce Modules\juce_osc\osc">
+      <UniqueIdentifier>{3D19F603-7985-B222-DFDA-9B83329ACA9D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Modules\juce_osc">
+      <UniqueIdentifier>{1A62F82C-C14A-E14A-94DE-8A27E0F8A090}</UniqueIdentifier>
+    </Filter>
     <Filter Include="Juce Modules">
       <UniqueIdentifier>{422C46B7-0467-2DB0-BF3C-16DFCAFD69AC}</UniqueIdentifier>
     </Filter>
@@ -2464,6 +2470,33 @@
     <ClCompile Include="..\..\..\JUCE\modules\juce_opengl\juce_opengl.mm">
       <Filter>Juce Modules\juce_opengl</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\JUCE\modules\juce_osc\osc\juce_OSCAddress.cpp">
+      <Filter>Juce Modules\juce_osc\osc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\JUCE\modules\juce_osc\osc\juce_OSCArgument.cpp">
+      <Filter>Juce Modules\juce_osc\osc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\JUCE\modules\juce_osc\osc\juce_OSCBundle.cpp">
+      <Filter>Juce Modules\juce_osc\osc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\JUCE\modules\juce_osc\osc\juce_OSCMessage.cpp">
+      <Filter>Juce Modules\juce_osc\osc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\JUCE\modules\juce_osc\osc\juce_OSCReceiver.cpp">
+      <Filter>Juce Modules\juce_osc\osc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\JUCE\modules\juce_osc\osc\juce_OSCSender.cpp">
+      <Filter>Juce Modules\juce_osc\osc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\JUCE\modules\juce_osc\osc\juce_OSCTimeTag.cpp">
+      <Filter>Juce Modules\juce_osc\osc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\JUCE\modules\juce_osc\osc\juce_OSCTypes.cpp">
+      <Filter>Juce Modules\juce_osc\osc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\JUCE\modules\juce_osc\juce_osc.cpp">
+      <Filter>Juce Modules\juce_osc</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\JuceLibraryCode\BinaryData.cpp">
       <Filter>Juce Library Code</Filter>
     </ClCompile>
@@ -2504,6 +2537,9 @@
       <Filter>Juce Library Code</Filter>
     </ClCompile>
     <ClCompile Include="..\..\JuceLibraryCode\include_juce_opengl.cpp">
+      <Filter>Juce Library Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\JuceLibraryCode\include_juce_osc.cpp">
       <Filter>Juce Library Code</Filter>
     </ClCompile>
   </ItemGroup>
@@ -4709,6 +4745,33 @@
     </ClInclude>
     <ClInclude Include="..\..\..\JUCE\modules\juce_opengl\juce_opengl.h">
       <Filter>Juce Modules\juce_opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\JUCE\modules\juce_osc\osc\juce_OSCAddress.h">
+      <Filter>Juce Modules\juce_osc\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\JUCE\modules\juce_osc\osc\juce_OSCArgument.h">
+      <Filter>Juce Modules\juce_osc\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\JUCE\modules\juce_osc\osc\juce_OSCBundle.h">
+      <Filter>Juce Modules\juce_osc\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\JUCE\modules\juce_osc\osc\juce_OSCMessage.h">
+      <Filter>Juce Modules\juce_osc\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\JUCE\modules\juce_osc\osc\juce_OSCReceiver.h">
+      <Filter>Juce Modules\juce_osc\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\JUCE\modules\juce_osc\osc\juce_OSCSender.h">
+      <Filter>Juce Modules\juce_osc\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\JUCE\modules\juce_osc\osc\juce_OSCTimeTag.h">
+      <Filter>Juce Modules\juce_osc\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\JUCE\modules\juce_osc\osc\juce_OSCTypes.h">
+      <Filter>Juce Modules\juce_osc\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\JUCE\modules\juce_osc\juce_osc.h">
+      <Filter>Juce Modules\juce_osc</Filter>
     </ClInclude>
     <ClInclude Include="..\..\JuceLibraryCode\AppConfig.h">
       <Filter>Juce Library Code</Filter>
