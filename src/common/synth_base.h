@@ -24,6 +24,7 @@
 #include "helm_engine.h"
 #include "memory.h"
 #include "midi_manager.h"
+#include "osc_manager.h"
 #include <string>
 
 class SynthGuiInterface;

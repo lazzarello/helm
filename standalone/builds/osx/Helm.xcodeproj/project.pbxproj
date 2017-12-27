@@ -489,6 +489,7 @@
 		F7F55731819A718394EFB6B5 = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "tick_router.h"; path = "../../../mopo/src/tick_router.h"; sourceTree = "SOURCE_ROOT"; };
 		F8E035506B4257624F2AE9D2 = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = "include_juce_core.mm"; path = "../../JuceLibraryCode/include_juce_core.mm"; sourceTree = "SOURCE_ROOT"; };
 		F92ED8DFC626C664B055DE3E = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "dc_filter.cpp"; path = "../../../src/synthesis/dc_filter.cpp"; sourceTree = "SOURCE_ROOT"; };
+		FCAABF31550C585502ED1319 = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "osc_manager.h"; path = "../../../src/common/osc_manager.h"; sourceTree = "SOURCE_ROOT"; };
 		FD846F7632B7D337302EB3C1 = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "text_slider.cpp"; path = "../../../src/editor_components/text_slider.cpp"; sourceTree = "SOURCE_ROOT"; };
 		FEA40AA3FA4D7AB69857AB5E = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "step_sequencer_section.h"; path = "../../../src/editor_sections/step_sequencer_section.h"; sourceTree = "SOURCE_ROOT"; };
 		FFF4F4B9A3C0ECE1C9E8DDAC = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "retrigger_selector.h"; path = "../../../src/editor_components/retrigger_selector.h"; sourceTree = "SOURCE_ROOT"; };
@@ -611,6 +612,7 @@
 					AB079907889060B891C4E778,
 					F516DB15733061FA2656F285,
 					CA98FDA2AD5552AFD96D3ACD,
+					FCAABF31550C585502ED1319,
 					D0258E93F451A1A44636A6A4,
 					96EB57DF51524AB7C4F989F3,
 					AECBC83AC89D73A996841BEE,

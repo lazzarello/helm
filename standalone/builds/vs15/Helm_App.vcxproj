@@ -2067,6 +2067,7 @@
     <ClInclude Include="..\..\..\src\common\helm_common.h"/>
     <ClInclude Include="..\..\..\src\common\load_save.h"/>
     <ClInclude Include="..\..\..\src\common\midi_manager.h"/>
+    <ClInclude Include="..\..\..\src\common\osc_manager.h"/>
     <ClInclude Include="..\..\..\src\common\startup.h"/>
     <ClInclude Include="..\..\..\src\common\synth_base.h"/>
     <ClInclude Include="..\..\..\src\common\synth_gui_interface.h"/>

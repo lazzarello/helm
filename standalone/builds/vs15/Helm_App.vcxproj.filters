@@ -2691,6 +2691,9 @@
     <ClInclude Include="..\..\..\src\common\midi_manager.h">
       <Filter>Helm\src\common</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\..\src\common\osc_manager.h">
+      <Filter>Helm\src\common</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\..\src\common\startup.h">
       <Filter>Helm\src\common</Filter>
     </ClInclude>
