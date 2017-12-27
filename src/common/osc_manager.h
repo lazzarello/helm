@@ -27,6 +27,45 @@
 #pragma once
 
 #include "JuceHeader.h"
+#include "common.h"
+#include <string>
+#include <map>
+
+class SynthBase;
+
+namespace mopo {
+    class HelmEngine;
+} // namespace mopo
+
+class OSCManager : public OSCReceiver::Listener<OSCReceiver::MessageLoopCallback>
+{
+public:
+    typedef std::pair<mopo::mopo_float, mopo::mopo_float> osc_range;
+    typedef std::map<int, std::map<std::string, osc_range>> osc_map;
+    OSCManager(SynthBase* synth,
+                std::map<std::string, String>* gui_state, Listener* listener = nullptr);
+    virtual ~OSCManager();
+    
+private:
+    void oscMessageReceived (const OSCMessage& message) override
+    {
+        printf("a message was received");
+    }
+    
+protected:
+    SynthBase* synth_;
+    mopo::HelmEngine* engine_;
+    std::map<std::string, String>* gui_state_;
+    Listener* listener_;
+    int current_bank_;
+    int current_folder_;
+    int current_patch_;
+    
+    std::string control_armed_;
+    std::pair<mopo::mopo_float, mopo::mopo_float> armed_range_;
+    //osc_map midi_learn_map_;
+};
+
 
 //==============================================================================
 class OSCLogListBox    : public ListBox, private ListBoxModel, private AsyncUpdater
@@ -174,3 +213,4 @@ private:
     
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (OSCLogListBox)
 };
+
